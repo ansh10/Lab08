@@ -25,4 +25,9 @@ public class CustomList {
             throw new IllegalArgumentException("City not in list");
         }
     }
+
+    public int countCities() {
+        return cities.size();
+    }
+
 }
